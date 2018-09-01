@@ -1,0 +1,92 @@
+/* Style the entire body */
+
+body {
+    font-family: 'Indie Flower', cursive;
+}
+
+
+/* Style the navigation bar! */
+
+nav {
+    background-color: #D8D8D8;
+    overflow: auto;
+}
+
+ul {
+    float: right;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+
+li {
+    float: left;
+    padding: 20px;
+    list-style: none;
+}
+
+h1 {
+    margin-left: 135px;
+    height: 30px;
+    float: left;
+    background-color: pink;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+a {
+    text-decoration: none;
+    color: darkgray;
+}
+
+/* Style the Section */
+
+.main {
+    width: 969px;
+    margin: auto;
+}
+
+h2 {
+    border-bottom: 1px solid gray;
+    padding: 10px;
+}
+
+/* Style the image */
+
+img {
+    width: 25%;
+    float: left;
+    margin-right: 20px;
+    border: 1px solid black;
+}
+
+/* Style the form */
+
+form {
+    margin: auto;
+}
+
+input[id=msg] {
+    height: 50px;
+    margin: 0;
+}
+
+input[id=msg], input[id=email], input[id=name] {
+    margin: 25px;
+}
+
+input[placeholder="Full Name"], input[placeholder="Email Address"], input[placeholder="Send Us a Message!"] {
+    margin-top: 0;
+}
+
+input[type=submit]:hover {
+    background-color: gray;
+}
+
+input[id=submit] {
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    font-size: medium;
+}
+
